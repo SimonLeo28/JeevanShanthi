@@ -61,7 +61,7 @@ export default function HomePage() {
               className="text-white/70 text-lg leading-relaxed mb-8"
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.25 }}
             >
-              Expert guidance for life insurance, savings & retirement. Protecting families across Andhra Pradesh with personalised LIC solutions.
+              Expert guidance for life insurance, savings & retirement. Protecting families across Karnataka with personalised LIC solutions.
             </motion.p>
 
             <motion.div
@@ -92,7 +92,7 @@ export default function HomePage() {
       <div className="bg-white border-b border-gray-100 py-5">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-wrap justify-center gap-8 md:gap-12">
-            {[['🏆','LIC Certified Agent'],['📜','IRDA Licensed'],['🤝','2000+ Clients'],['⭐','19+ Years Exp'],['🔒','100% Secure']].map(([icon, label]) => (
+            {[['🏆', 'LIC Certified Agent'], ['📜', 'IRDA Licensed'], ['🤝', '2000+ Clients'], ['⭐', '19+ Years Exp'], ['🔒', '100% Secure']].map(([icon, label]) => (
               <div key={label} className="flex items-center gap-2.5 text-sm font-medium text-gray-500">
                 <div className="w-9 h-9 bg-navy-50 rounded-lg flex items-center justify-center text-lg">{icon}</div>
                 {label}
