@@ -55,7 +55,7 @@ function QuoteSidebar({ plan }) {
         </button>
       </form>
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/9148570090"
         target="_blank" rel="noreferrer"
         className="mt-4 flex items-center justify-center gap-2 bg-[#25d366] text-white rounded-xl py-3 text-sm font-semibold hover:bg-[#20b85a] transition-colors"
       >
@@ -63,7 +63,7 @@ function QuoteSidebar({ plan }) {
       </a>
       {/* Info boxes */}
       <div className="space-y-2.5 mt-5">
-        {[['🎂','Your Age','Affects premium & sum assured'],['💼','Annual Income','Determines SA eligibility'],['🎯','Financial Goal','Protection / Savings / Retirement']].map(([icon, label, desc]) => (
+        {[['🎂', 'Your Age', 'Affects premium & sum assured'], ['💼', 'Annual Income', 'Determines SA eligibility'], ['🎯', 'Financial Goal', 'Protection / Savings / Retirement']].map(([icon, label, desc]) => (
           <div key={label} className="glass-card p-3.5">
             <div className="flex items-center gap-2 mb-1">
               <span className="text-base">{icon}</span>
