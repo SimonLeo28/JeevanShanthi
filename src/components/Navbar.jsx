@@ -3,9 +3,9 @@ import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const NAV_LINKS = [
-  { to: '/',        label: 'Home' },
-  { to: '/about',   label: 'About' },
-  { to: '/plans',   label: 'LIC Plans' },
+  { to: '/', label: 'Home' },
+  { to: '/about', label: 'About' },
+  { to: '/plans', label: 'LIC Plans' },
   { to: '/contact', label: 'Contact' },
 ]
 
@@ -30,9 +30,8 @@ export default function Navbar() {
   return (
     <>
       <motion.nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : ''
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : ''
+          }`}
         initial={{ y: -80 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
@@ -59,13 +58,12 @@ export default function Navbar() {
                 <Link
                   key={to}
                   to={to}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                    active
-                      ? 'bg-navy-50 text-navy-600'
-                      : scrolled || !isHome
-                        ? 'text-gray-700 hover:bg-navy-50 hover:text-navy-600'
-                        : 'text-white/80 hover:text-white hover:bg-white/10'
-                  }`}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${active
+                    ? 'bg-navy-50 text-navy-600'
+                    : scrolled || !isHome
+                      ? 'text-gray-700 hover:bg-navy-50 hover:text-navy-600'
+                      : 'text-white/80 hover:text-white hover:bg-white/10'
+                    }`}
                 >
                   {label}
                 </Link>
@@ -82,7 +80,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
-            {[0,1,2].map(i => (
+            {[0, 1, 2].map(i => (
               <span key={i} className={`block w-6 h-0.5 rounded transition-colors ${scrolled || !isHome ? 'bg-gray-900' : 'bg-white'}`} />
             ))}
           </button>
