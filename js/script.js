@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const m=document.querySelector('.menu'),n=document.querySelector('.links');if(m)n&&m.addEventListener('click',()=>n.classList.toggle('open'));});
