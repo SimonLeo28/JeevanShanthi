@@ -20,3 +20,4 @@ RewriteRule ^contact/?$ /contact.html [L,NC]
 
 # Redirect common typo URLs to the correct plan pages
 RewriteRule ^plans/jeevan-tarun/?$ /plans/jeevan-arun/ [R=301,L,NC]
+RewriteRule ^plans/jeevan-umang/?$ /plans/jeevan-amang/ [R=301,L,NC]
