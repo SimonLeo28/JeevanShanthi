@@ -16,6 +16,56 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.jeevanshanthi.com/plans/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-akshay/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-amang/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-amar/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-anand/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-arun/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-labh/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/jeevan-shanti/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/new-endowment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.jeevanshanthi.com/plans/tech-term/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.jeevanshanthi.com/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
