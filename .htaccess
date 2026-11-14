@@ -13,11 +13,14 @@ RewriteRule ^index\.html$ / [R=301,L]
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html [NC]
 RewriteRule ^ /%1/ [R=301,L]
 
+# Redirect /solution or /solutions to /services/
+RewriteRule ^solutions?/?$ /services/ [R=301,L,NC]
+
 # Route clean URLs to the real files
-RewriteRule ^about/?$ /about.html [L,NC]
-RewriteRule ^services/?$ /services.html [L,NC]
+RewriteRule ^about/?$ /about/index.html [L,NC]
+RewriteRule ^services/?$ /services/index.html [L,NC]
 RewriteRule ^plans/?$ /plans/index.html [L,NC]
-RewriteRule ^contact/?$ /contact.html [L,NC]
+RewriteRule ^contact/?$ /contact/index.html [L,NC]
 
 # Redirect common typo URLs to the correct plan pages
 RewriteRule ^plans/jeevan-tarun/?$ /plans/jeevan-arun/ [R=301,L,NC]

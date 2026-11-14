@@ -1,0 +1,89 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/solution",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/solution/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/plans/jeevan-tarun",
+      "destination": "/plans/jeevan-arun/",
+      "permanent": true
+    },
+    {
+      "source": "/plans/jeevan-tarun/",
+      "destination": "/plans/jeevan-arun/",
+      "permanent": true
+    },
+    {
+      "source": "/plans/jeevan-umang",
+      "destination": "/plans/jeevan-amang/",
+      "permanent": true
+    },
+    {
+      "source": "/plans/jeevan-umang/",
+      "destination": "/plans/jeevan-amang/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/about/",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services/index.html"
+    },
+    {
+      "source": "/services/",
+      "destination": "/services/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact/index.html"
+    }
+  ]
+}
+
